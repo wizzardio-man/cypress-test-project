@@ -10,7 +10,8 @@ launch `npm run cy:open`
 
 execute test file `pdf-compare.cy.ts`
 
-
 2. Demoblaze phone list app
+
+make sure you applied config to the `cypress.env.json`
 
 execute `demoblaze.cy.ts` spec in the tests list in the Cypress Dashboard

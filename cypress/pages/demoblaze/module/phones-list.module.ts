@@ -21,7 +21,7 @@ export default class PhonesList {
         });
     }
 
-    public findChepestPhonePrice(): Promise<number> {
+    public findCheapestPhonePrice(): Promise<number> {
         return new Promise((res) => {
             this.getPhonePrices()
             .then(prices => {

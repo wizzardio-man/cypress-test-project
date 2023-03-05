@@ -19,7 +19,7 @@ describe('demoblaze app tests', () => {
 
     it('add the cheapest phone to the cart', () => {
         phoneListModule = demoblazePage.categoriesModule.openPhonesList();
-        phoneListModule.findChepestPhonePrice()
+        phoneListModule.findCheapestPhonePrice()
             .then((cheapestPhonePrice) => {
                 productPage = phoneListModule.openPhoneCartWithThePrice(cheapestPhonePrice);
                 productPage.verifyProductCanBeAddedToCart()
